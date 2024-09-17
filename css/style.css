@@ -1,0 +1,188 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin:0;
+}
+
+p, h2, h4, h3{
+    margin:0;
+    padding:10px;
+    text-align: right;
+}
+
+h5{
+    margin:0;
+    padding:10px;
+    text-align: center;
+}
+
+header{
+    height:15vh;
+    position:relative;
+}
+
+.x-area{
+    position:absolute;
+    width:20%;
+    top:50%;
+    transform:translate(10%, -50%);
+}
+
+header h1{
+    position:absolute;
+    width:50%;
+    top:50%;
+    left:100%;
+    margin:0;
+    padding:10px;
+    text-align:right;
+    transform:translate(-100%, -50%);
+    box-sizing: border-box;
+}
+
+.centering-wrapper{
+    position:absolute;
+    width:100%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.rigt-wrapper{
+    position:absolute;
+    width:50%;
+    top:50%;
+    left:100%;
+    margin:0;
+    padding:10px;
+    text-align:right;
+    transform:translate(-100%, -50%);
+    box-sizing: border-box;
+}
+
+.area-345-wrapper{
+    height:100%;
+    float:left;
+    width: 100%;
+    position:relative;
+}
+
+.area-2-wrapper{
+    height:70vh;
+    float:left;
+    width: 100%;
+    position:relative;
+    right:80%;
+}
+
+.area-2{
+    height:100%;
+    float:left;
+    width:20%;
+    position:relative;
+    left:80%;
+}
+
+.area-345{
+    height:100%;
+    float:left;
+    width:80%;
+    position:relative;
+    left:80%;
+}
+
+
+
+.area-4-wrapper{
+    height:100%;
+    float:left;
+    width: 100%;
+    overflow:hidden;
+    position:relative;
+}
+
+.area-35-wrapper{
+    height:100%;
+    float:left;
+    width: 100%;
+    position:relative;
+    right:30%;
+}
+
+.area-35{
+    height:100%;
+    float:left;
+    width:70%;
+    position:relative;
+    left:30%;
+}
+
+.area-3{
+    height:80%;
+    position:relative;
+}
+
+.image-wrapper{
+    text-align: center;
+    overflow: hidden;
+}
+
+.area-5{
+    top: 10%;
+    height:10%;
+    position:relative;
+}
+
+.area-4{
+    height:100%;
+    float:left;
+    width:20%;
+    position:fixed;
+    left: 80%;
+}
+
+footer{
+    height:15vh;
+    position:relative;
+    width:76%;
+}
+
+footer h3{
+    position:absolute;
+    width:20%;
+    top: 50%;
+    left:100%;
+    transform:translate(-110%, -50%);
+}
+
+.y-area{
+    position:absolute;
+    width:28%;
+    top:50%;
+    margin:0;
+    margin-left:10px;
+    transform:translate(0, -50%);
+}
+
+.clr{
+    clear:both;
+}
+
+.blue{
+    background-color: aqua;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.green{
+    background-color: greenyellow;
+}
+
+.white{
+    background-color: white;
+}
